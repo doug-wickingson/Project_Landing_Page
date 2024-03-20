@@ -43,13 +43,48 @@ li {
 
 .hero {
     display: flex;
-    height: 25vh;
+    height: 35vh;
     width: 100%;
     background: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 #main {
+    width: 60%;
+}
+
+#main h1 {
     font-size: 48px;
     font-weight: 999;
     color: #F9FAF8;
+    width: 45%;
+    margin: 0;
+    margin-left:45px;
+    
 }
+
+#main p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 45%;
+    margin-left:45px;
+}
+
+button {
+    background-color: #2882F6;
+    color: #F9FAF8;
+    margin-left:45px;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:45%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+ }
